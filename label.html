@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Student Admission Form</title>
+</head>
+<body>
+
+<h2 align="center">Student Admission Registration Form</h2>
+
+<form method="post" action="">
+
+<table border="1" cellpadding="5" cellspacing="0" align="center">
+
+<tr>
+<td>First Name:</td>
+<td><input type="text" name="fname" size="30" required></td>
+</tr>
+
+<tr>
+<td>Last Name:</td>
+<td><input type="text" name="lname" size="30" required></td>
+</tr>
+
+<tr>
+<td>Date of Birth:</td>
+<td><input type="date" name="dob" required></td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other"> Other
+</td>
+</tr>
+
+<tr>
+<td>Address:</td>
+<td><textarea name="address" rows="4" cols="30"></textarea></td>
+</tr>
+
+<tr>
+<td>Phone Number:</td>
+<td><input type="tel" name="phone" maxlength="10" required></td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="email" name="email" required></td>
+</tr>
+
+<tr>
+<td>Nationality:</td>
+<td>
+<select name="nationality">
+<option value="India">India</option>
+<option value="Canada">Canada</option>
+<option value="USA">USA</option>
+<option value="Japan">Japan</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Course Applying For:</td>
+<td>
+<select name="course">
+<option value="BSc">B.Sc</option>
+<option value="BA">B.A</option>
+<option value="BCom">B.Com</option>
+<option value="BTech">B.Tech</option>
+<option value="MBA">MBA</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Upload Photo:</td>
+<td><input type="file" name="photo" accept="image/*"></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
